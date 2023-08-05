@@ -148,7 +148,7 @@ if(empty($_SESSION['_usertype'])) {
                             </th>
 
                             <th class="text-center">
-                             Extra Bed
+                             Extra Bed.
                             </th>
 
                             <th class="text-center">
