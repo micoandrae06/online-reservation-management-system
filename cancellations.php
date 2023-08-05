@@ -65,9 +65,9 @@ if(empty($_SESSION['_usertype'])) {
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link" href="index.php">Home.</a></li>
-          <li><a class="nav-link" href="rooms.php">Rooms.</a></li>
-          <li><a class="nav-link" href="resort.php">Resort.</a></li>
+          <li><a class="nav-link" href="index.php">Home</a></li>
+          <li><a class="nav-link" href="rooms.php">Rooms</a></li>
+          <li><a class="nav-link" href="resort.php">Resort</a></li>
           <<?php
             if ($user_type=='Guest') {
               $output='<li><a class="nav-link" href="reservations.php">Reservations</a></li>
